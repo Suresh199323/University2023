@@ -2,7 +2,7 @@ FROM eclipse-temurin:17-jdk-alpine
 
 WORKDIR /app
 
-COPY target/university.jar university.jar
+COPY University2023/target/university.jar university.jar
 
 EXPOSE 8080
 
